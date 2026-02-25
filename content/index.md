@@ -1,7 +1,5 @@
 ---
 title: Welcome to Quartz
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Questo sito è essenzialmente un pretesto didattico per sperimentare sulla pubblicazione delle mie note del mio vault di Obsidian. 
 [[⭐ Recensioni bevande.base]]
