@@ -26,9 +26,9 @@ export default (() => {
     const beverages = allFiles
       .filter((f) => f.frontmatter?.type === "bevanda")
       .sort((a, b) => {
-        const sa = parseFloat(String(a.frontmatter?.score ?? "0"))
-        const sb = parseFloat(String(b.frontmatter?.score ?? "0"))
-        return sb - sa
+        const dateA = new Date(a.frontmatter?.created ?? "0").getTime()
+        const dateB = new Date(b.frontmatter?.created ?? "0").getTime()
+        return dateB - dateA
       })
 
     if (beverages.length === 0) {
@@ -77,6 +77,7 @@ export default (() => {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 1.25rem;
       margin-top: 1.5rem;
+      margin-bottom: 3rem;
     }
 
     .bev-card {
@@ -99,10 +100,15 @@ export default (() => {
       aspect-ratio: 1;
       background: var(--lightgray);
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .bev-img {
-      width: 100%; height: 100%;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
+      object-position: center;
       display: block;
     }
     .bev-img-placeholder {
@@ -123,7 +129,7 @@ export default (() => {
     }
 
     .bev-body {
-      padding: .75rem .9rem 1rem;
+      padding: .75rem .9rem 2rem;
       display: flex; flex-direction: column; gap: .3rem;
       flex: 1;
     }
@@ -140,14 +146,10 @@ export default (() => {
     .page-listing { display: none; }
 
     .bev-desc {
-      margin: 0;
+      margin: 0 0 0.8rem 0;
       font-size: .8rem;
       color: var(--darkgray);
       line-height: 1.5;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
     }
   `
 
