@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - type == "bevanda"
+    order:
+      - file.name
+      - score
+    image: note.img

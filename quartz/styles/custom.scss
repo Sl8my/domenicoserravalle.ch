@@ -1,3 +1,24 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+.dataview.table-view-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  border: none;
+}
+
+.dataview.table-view-table thead {
+  display: none;
+}
+
+.dataview.table-view-table tbody {
+  display: contents;
+}
+
+.dataview.table-view-table tr {
+  display: block;
+  background: var(--background-secondary);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}

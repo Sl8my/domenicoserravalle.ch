@@ -1,9 +1,7 @@
 ---
-title: Welcome
+title: Welcome 🌱
 ---
  
-> [!abstract] Welcome! 🌱 > Dai un'occhiata a **La tua prima nota** per iniziare l'esplorazione.
+> [!abstract] Questo sito è essenzialmente un pretesto didattico per sperimentare sulla pubblicazione delle mie note.md di [Obsidian](https://obsidian.md/).
+enjoy
 
-Questo sito è essenzialmente un pretesto didattico per sperimentare sulla pubblicazione delle mie note del mio vault di Obsidian.
-
-dafnasdnf
