@@ -52,5 +52,4 @@ export {
   ConditionalRender,
 }
 
-import ReviewCards from "./ReviewCards"
-export { ReviewCards }
+export { default as BeverageList } from "./BeverageList"

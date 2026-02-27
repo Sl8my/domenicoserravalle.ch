@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.BeverageList()],
   footer: Component.Footer({
     links: {
       "Linkedin": "https://www.linkedin.com/in/domenicoserravalle",
