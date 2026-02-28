@@ -1,0 +1,13 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - type == "bevanda"
+    groupBy:
+      property: created
+      direction: DESC
+    order:
+      - file.name
+      - score
+    image: note.img
