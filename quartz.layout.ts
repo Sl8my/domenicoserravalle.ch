@@ -37,12 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "",
-      folderDefaultState: "collapsed",
-      filterFn: (node) => node.slugSegment === "bevande",
-      showToggleButtons: false,
-    }),
+    Component.Explorer(),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -66,12 +61,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      title: "",
-      folderDefaultState: "collapsed",
-      filterFn: (node) => node.slugSegment === "bevande",
-      showToggleButtons: false,
-    }),
+  Component.Explorer(),
   ],
   right: [],
 }

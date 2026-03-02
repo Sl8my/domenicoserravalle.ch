@@ -144,11 +144,23 @@ function createFolderNode(
     folderOuter.classList.add("open")
   }
 
-  for (const child of node.children) {
-    const childNode = child.isFolder
-      ? createFolderNode(currentSlug, child, opts)
-      : createFileNode(currentSlug, child)
-    ul.appendChild(childNode)
+
+  // Se la cartella è 'bevande', non mostrare toggle né figli
+  if (node.displayName !== "bevande") {
+    for (const child of node.children) {
+      const childNode = child.isFolder
+        ? createFolderNode(currentSlug, child, opts)
+        : createFileNode(currentSlug, child)
+      ul.appendChild(childNode)
+    }
+  } else {
+    // Nascondi toggle
+    const folderIcon = li.querySelector('.folder-icon') as HTMLElement | null;
+    if (folderIcon) {
+      folderIcon.style.display = 'none';
+    }
+    // Nascondi contenitore figli
+    folderOuter.style.display = 'none';
   }
 
   return li
