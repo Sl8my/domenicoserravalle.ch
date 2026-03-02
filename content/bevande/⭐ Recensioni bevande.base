@@ -7,7 +7,5 @@ views:
     order:
       - file.name
       - score
-    sort:
-      - property: dateCreated
-        direction: DESC
+    sort: []
     image: note.img
