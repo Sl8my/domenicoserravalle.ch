@@ -1,13 +1,13 @@
 views:
   - type: cards
-    name: Table
+    name: Tablefdas
     filters:
       and:
         - type == "bevanda"
-    groupBy:
-      property: created
-      direction: DESC
     order:
       - file.name
       - score
+    sort:
+      - property: dateCreated
+        direction: DESC
     image: note.img
