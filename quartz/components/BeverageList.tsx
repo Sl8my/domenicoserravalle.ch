@@ -30,7 +30,7 @@ export default (() => {
         const dateB = new Date(b.frontmatter?.created ?? "0").getTime()
         return dateB - dateA
       })
-
+        .reverse()
     if (beverages.length === 0) {
       return <p style={{ color: "var(--darkgray)" }}>Nessuna bevanda trovata.</p>
     }
