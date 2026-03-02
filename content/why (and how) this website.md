@@ -10,6 +10,7 @@ deploy:
 [...]	
 ```
 A questo punto ho inserito nel mio [hosting web](https://www.infomaniak.com/) i dns che puntano nuovamente verso le github pages.
+Complimenti, ho appena messo in piedi una pipeline di CI/CD.
 ## but why?
 Un sito statico di questo tipo era veramente semplice da sviluppare con mille altre tecnologie, anche più sensate.
 La scelta risiede dunque non solo nella didattica, nel mio apprendimento attivo di uno strumento nuovo, ma anche nella possibilità di pubblicare mie note già esistenti che attingono direttamente dal mio vault.
