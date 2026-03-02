@@ -23,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-  ],
+  ],  
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        //{ Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),
