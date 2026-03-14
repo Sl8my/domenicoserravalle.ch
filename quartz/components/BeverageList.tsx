@@ -26,14 +26,23 @@ export default (() => {
     const beverages = allFiles
       .filter((f) => f.frontmatter?.type === "bevanda")
       .sort((a, b) => {
-        const dateA = new Date(a.frontmatter?.created ?? "0").getTime()
-        const dateB = new Date(b.frontmatter?.created ?? "0").getTime()
-        return dateB - dateA
-      })
+              // Cerca 'created' nel frontmatter. Se non c'è, usa la data di creazione del file letta da Quartz.
+              const dateA = a.frontmatter?.created 
+                ? new Date(a.frontmatter.created as string).getTime() 
+                : (a.dates?.created?.getTime() ?? 0)
+                
+              const dateB = b.frontmatter?.created 
+                ? new Date(b.frontmatter.created as string).getTime() 
+                : (b.dates?.created?.getTime() ?? 0)
+                
+              return dateB - dateA
+            })
     if (beverages.length === 0) {
       return <p style={{ color: "var(--darkgray)" }}>Nessuna bevanda trovata.</p>
     }
 
+    
+    
     return (
       <div class="bev-grid">
         {beverages.map((bev) => {
