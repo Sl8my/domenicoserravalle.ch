@@ -7,5 +7,7 @@ views:
     order:
       - file.name
       - score
-    sort: []
+    sort:
+      - property: file.ctime
+        direction: DESC
     image: note.img
