@@ -1,12 +1,13 @@
 views:
   - type: cards
-    name: Tablefdas
+    name: Table
     filters:
       and:
         - type == "bevanda"
     order:
       - file.name
       - score
+      - created
     sort:
       - property: file.ctime
         direction: DESC
