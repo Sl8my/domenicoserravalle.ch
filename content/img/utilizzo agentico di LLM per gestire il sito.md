@@ -1,0 +1,1 @@
+L'esperimento didattico odierno è relativo all'utilizzo agentico degli LLM. Nell'articolo precedente ho spiegato il funzionamento tecnico del sito in cui scrivo. 
