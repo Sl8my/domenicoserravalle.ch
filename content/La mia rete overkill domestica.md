@@ -2,7 +2,8 @@ Overkill perché è nella pratica una rete aziendale. Perché in quanto informat
 ## Host
 Ho un dominio il cui *vpn.sottodominio.ch* punta al mio ip pubblico di quel momento. Ho già fatto la tiritera del DDNS con [duckDNS,](https://www.duckdns.org/)ma ho scoperto essere più comodo speculare sul fatto che il mio ISP mi cambi poco frequentemente l'IP del mio router. Dunque ho un record di tipo A che punta al mio router. 
 ## Router
-Ho un classico router Swisscom. Ho provato ad attivare il DDNS e impostare infomaniak, ma mi trovo meglio come spiegato precedentemente. Limito il suo DHCP da 0.3 a 0.14. Viene usat
+Ho un classico router Swisscom. Ho provato ad attivare il DDNS e impostare infomaniak, ma mi trovo meglio come spiegato precedentemente. Limito il suo DHCP da 0.3 a 0.14. Tecnicamente è un double NAT. Praticamente segmento la rete in due sottoreti distinte. Solo il firewall è collegato direttamente. 
+
 ## Firewall
 Ho un firewall Fortinet ereditato da un amico allo scopo di impratichirmi col brand. Anche nell'ottica di prendere una certificazione.
 Qui viene gestito 
