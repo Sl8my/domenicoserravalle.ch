@@ -1,0 +1,1 @@
+Nell'articolo precedente ho descritto [[La mia rete overkill domestica]]. Una cosa che non ho specificato è che il mio firewall Fortinet è più che end of life, proprio trapassato. 
