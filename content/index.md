@@ -1,5 +1,7 @@
 ---
 title: Welcome 🌱
+created: 2026-02-24
+modified: 2026-08-22
 ---
  > [!abstract] Questo sito è essenzialmente un pretesto didattico per sperimentare sulla pubblicazione delle mie note.md di [Obsidian](https://obsidian.md/).
 

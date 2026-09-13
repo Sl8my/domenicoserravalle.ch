@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - type == "bevanda"
+        - file.name != "Template Bevanda"
     order:
       - file.name
       - score

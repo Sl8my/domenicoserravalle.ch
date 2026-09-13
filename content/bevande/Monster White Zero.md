@@ -3,5 +3,8 @@ type: bevanda
 score: "9.2"
 img: img/white.jpeg
 created: 2026-02-27
+tags:
+  - bevanda
+modified: 2026-08-22
 ---
 Un classico (per me). Una delle mie preferite in ambito energy drink. Personalmente mi aiuta a performare meglio mentalmente. Ho avuto il mio periodo 1 can/day per diversi mesi. Mi ha aiutato con l'università.

@@ -1,3 +1,7 @@
+---
+created: 2026-06-16
+modified: 2026-08-22
+---
 L'esperimento didattico odierno è relativo all'utilizzo agentico degli LLM. Nell'articolo precedente ho spiegato il funzionamento tecnico del sito in cui scrivo. Uno degli utilizzi più opportuni di questi agenti sarebbe proprio quello di pubblicare più agevolmente gli articoli del sito stesso. La pubblicazione! E non la redazione dei contenuti: "[don't delegate understanding](https://stephango.com/understand)". [Openclaw](https://openclaw.ai/) d'altronde promette questo e molto di più. Lo metto subito alla prova.
 
 Under the hood giro [ollama](https://ollama.com/) con [Gemma4](http://deepmind.google/models/gemma/gemma-4/) di Google. La mia GPU, una 4080, fa i turni extra, ma la resa è buona, quasi molto buona. Abilito la comunicazione via telegram e gli creo un bot. Affinché l'agente possa riutilizzare il processo indefinite volte, creo e valido una skill che lui stesso possa riutilizzare. In questo caso: beverage-review-flow. 
