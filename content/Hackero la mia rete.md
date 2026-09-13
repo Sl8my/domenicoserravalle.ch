@@ -18,16 +18,14 @@ Dunque, a scopo puramente didattico (ovvio), mi chiedo se e come sia possibile e
 nmap -sV -p- <IP>
 ```
 
-![[Pasted image 20260817211559.png]]
-
+![[img/nmap.png]]
 4. A questo punto il dispositivo che cerchiamo è piuttosto evidente. Ricordo infatti di aver configurato quella porta per la mia connessione SSL-VPN: la porta predefinita sarebbe la 443, ma io l'avevo modificata in 10443.
 5. Raggiungo la pagina di login del Fortinet all'indirizzo `https://IP:10443/remote/login?lang=en`. Resta da identificare la versione del firmware, così da verificare quali CVE ed eventuali exploit siano realmente applicabili. Dal certificato riesco almeno a ricavare il modello del firewall: 60D. A questo punto conosco indirizzo IP, porta, marca e modello del dispositivo.
 ```
 nmap --script ssl-cert,http-title -p 10443 <IP>
 ```
 
-![[Pasted image 20260817220049.png]]
-
+![[img/nmap_10443.png]]
 6. Devo quindi capire quale versione del firmware gira sul firewall. La strada più ovvia, analizzare gli header della pagina di login, non restituisce informazioni utili: il campo che potrebbe identificare il server è deliberatamente mascherato (`Server: xxxxxxxx-xxxxx`). Qui mi blocco.
 ### Bloccato
 Ho provato a dedurre la versione del firmware per esclusione. Ho usato [Nuclei](https://github.com/projectdiscovery/nuclei) per verificare esposizioni note e cURL per ispezionare direttamente richieste, risposte e header HTTP. Nessuno dei due strumenti mi ha però restituito un fingerprint abbastanza affidabile da associare il dispositivo a una specifica build di FortiOS. Senza questa informazione posso individuare vulnerabilità potenziali, ma non stabilire con sufficiente certezza se siano sfruttabili sul mio firewall.

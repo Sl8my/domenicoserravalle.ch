@@ -4,4 +4,4 @@ modified: 2026-09-13
 ---
 > work in progress
 
-![[Pasted image 20260913181506.png]]
+![[img/dashboard-homer.png]]
