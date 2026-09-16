@@ -2,7 +2,7 @@
 type: bevanda
 score: "8.8"
 img: img/powerade.jpeg
-created: 2026-03-22
+created: 2026-02-26
 tags:
   - bevanda
 modified: 2026-08-22

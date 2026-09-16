@@ -2,7 +2,7 @@
 type: bevanda
 score: "9.5"
 img: img/coca-cola.jpeg
-created: 2026-03-08
+created: 2025-07-08
 tags:
   - bevanda
 modified: 2026-08-22

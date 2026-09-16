@@ -2,7 +2,7 @@
 type: bevanda
 score: "9.2"
 img: img/white.jpeg
-created: 2026-02-27
+created: 2025-02-02
 tags:
   - bevanda
 modified: 2026-08-22

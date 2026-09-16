@@ -2,7 +2,7 @@
 type: bevanda
 score: "6.9"
 img: img/berry-smoothie-coop.jpg
-created: 2026-06-15
+created: 2026-06-25
 tags:
   - bevanda
 modified: 2026-08-22

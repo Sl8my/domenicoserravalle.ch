@@ -2,7 +2,7 @@
 type: bevanda
 score: "7.0"
 img: img/arancia.jpeg
-created: 2026-05-09
+created: 2026-05-24
 tags:
   - bevanda
 modified: 2026-08-22

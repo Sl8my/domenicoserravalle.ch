@@ -2,7 +2,7 @@
 type: bevanda
 score: "7.5"
 img: img/fizzy-mandarino.jpeg
-created: 2026-03-07
+created: 2025-06-17
 tags:
   - bevanda
 modified: 2026-08-22

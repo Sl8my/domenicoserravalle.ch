@@ -2,7 +2,7 @@
 type: bevanda
 score: "7.9"
 img: img/pepsi.jpeg
-created: 2026-03-18
+created: 2025-12-25
 tags:
   - bevanda
 modified: 2026-08-22

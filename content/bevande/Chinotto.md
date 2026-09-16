@@ -2,7 +2,7 @@
 type: bevanda
 score: "5.4"
 img: img/chinotto.JPG
-created: 2026-05-05
+created: 2026-04-02
 tags:
   - bevanda
 modified: 2026-08-22

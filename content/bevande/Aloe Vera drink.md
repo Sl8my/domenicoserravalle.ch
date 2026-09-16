@@ -2,7 +2,7 @@
 type: bevanda
 score: "2.0"
 img: img/aloe-vera.jpeg
-created: 2026-03-21
+created: 2026-02-13
 tags:
   - bevanda
 modified: 2026-08-22

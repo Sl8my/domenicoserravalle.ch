@@ -2,7 +2,7 @@
 type: bevanda
 score: "5.6"
 img: img/smoothie.jpg
-created: 2026-03-12
+created: 2025-09-15
 tags:
   - bevanda
 modified: 2026-08-22

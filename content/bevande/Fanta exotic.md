@@ -2,7 +2,7 @@
 type: bevanda
 score: "3.7"
 img: img/exotic.jpeg
-created: 2026-02-28
+created: 2025-02-18
 tags:
   - bevanda
 modified: 2026-08-22

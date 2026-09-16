@@ -2,7 +2,7 @@
 type: bevanda
 score: "8.0"
 img: img/sprite.jpeg
-created: 2026-03-04
+created: 2025-04-28
 tags:
   - bevanda
 modified: 2026-08-22

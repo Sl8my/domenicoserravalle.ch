@@ -2,7 +2,7 @@
 type: bevanda
 score: "3.1"
 img: img/chupa-chups.jpeg
-created: 2026-03-20
+created: 2026-01-26
 tags:
   - bevanda
 modified: 2026-08-22

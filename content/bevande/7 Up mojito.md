@@ -2,7 +2,7 @@
 type: bevanda
 score: "1.0"
 img: img/7up-mojito.jpeg
-created: 2026-08-07
+created: 2026-08-11
 tags:
   - bevanda
 modified: 2026-08-22

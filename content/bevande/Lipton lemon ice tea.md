@@ -2,7 +2,7 @@
 type: bevanda
 score: "5.9"
 img: img/lipton.jpeg
-created: 2026-05-10
+created: 2026-06-07
 tags:
   - bevanda
 modified: 2026-08-22

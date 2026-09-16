@@ -4,11 +4,11 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [Component.BeverageList()],
+  header: [Component.SiteHeader()],
+  afterBody: [],
   footer: Component.Footer({
     links: {
-      "Linkedin": "https://www.linkedin.com/in/domenicoserravalle",
+      LinkedIn: "https://www.linkedin.com/in/domenicoserravalle",
     },
   }),
 }
@@ -20,48 +20,41 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],  
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        //{ Component: Component.ReaderMode() },
-      ],
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.Explorer(),
+    Component.ConditionalRender({
+      component: Component.ContentMeta({ showReadingTime: true }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.HomePage(),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    //Component.Backlinks(),
-    // Component.RecentNotes()
-  ],
+  left: [],
+  right: [],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "bevande/index",
     }),
-  Component.Explorer(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "bevande/index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "bevande/index",
+    }),
+    Component.BeverageList(),
   ],
+  left: [],
   right: [],
 }

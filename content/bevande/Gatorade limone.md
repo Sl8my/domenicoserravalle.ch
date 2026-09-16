@@ -2,7 +2,7 @@
 type: bevanda
 score: "6.0"
 img: img/gatorade.jpeg
-created: 2026-03-03
+created: 2025-04-10
 tags:
   - bevanda
 modified: 2026-08-22

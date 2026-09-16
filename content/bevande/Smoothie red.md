@@ -2,7 +2,7 @@
 type: bevanda
 score: "6.0"
 img: img/smoothie-red.jpeg
-created: 2026-03-14
+created: 2025-10-19
 tags:
   - bevanda
 modified: 2026-08-22

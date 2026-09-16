@@ -2,7 +2,7 @@
 type: bevanda
 score: "6.3"
 img: img/fanta-lemon.jpeg
-created: 2026-03-16
+created: 2025-11-21
 tags:
   - bevanda
 modified: 2026-08-22

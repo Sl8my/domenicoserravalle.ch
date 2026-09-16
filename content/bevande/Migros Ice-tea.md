@@ -2,7 +2,7 @@
 type: bevanda
 score: "8.3"
 img: img/ice-tea.jpeg
-created: 2026-03-13
+created: 2025-09-29
 tags:
   - bevanda
 modified: 2026-08-22

@@ -2,7 +2,7 @@
 type: bevanda
 score: "8.7"
 img: img/san-benedetto.jpeg
-created: 2026-03-15
+created: 2025-11-04
 tags:
   - bevanda
 modified: 2026-08-22

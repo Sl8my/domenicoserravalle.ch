@@ -2,7 +2,7 @@
 type: bevanda
 score: "4.0"
 img: img/gren-citrus.jpeg
-created: 2026-03-10
+created: 2025-08-09
 tags:
   - bevanda
 modified: 2026-08-22

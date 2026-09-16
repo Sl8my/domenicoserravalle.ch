@@ -2,7 +2,7 @@
 type: bevanda
 score: "8.0"
 img: img/true-fruits-green.jpeg
-created: 2026-03-19
+created: 2026-01-11
 tags:
   - bevanda
 modified: 2026-08-22

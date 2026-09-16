@@ -2,7 +2,7 @@
 type: bevanda
 score: "5.9"
 img: img/powerade-attack.jpg
-created: 2026-06-16
+created: 2026-07-08
 tags:
   - bevanda
 modified: 2026-08-22

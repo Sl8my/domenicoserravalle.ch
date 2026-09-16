@@ -2,7 +2,7 @@
 type: bevanda
 score: "9.0"
 img: img/red-bull.JPG
-created: 2026-05-06
+created: 2026-04-19
 tags:
   - bevanda
 modified: 2026-08-22

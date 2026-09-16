@@ -1,7 +1,7 @@
 ---
 type: bevanda
 score: "9.1"
-created: 2026-08-06
+created: 2026-07-27
 img: img/gazusa.jpg
 tags:
   - bevanda
