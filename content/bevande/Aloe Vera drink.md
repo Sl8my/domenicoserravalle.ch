@@ -5,6 +5,6 @@ img: img/aloe-vera.jpeg
 created: 2026-02-13
 tags:
   - bevanda
-modified: 2026-08-22
+modified: 2026-10-31
 ---
 Come mai ha pezzi solidi? Purtroppo perde 4 punti solo per questo. Pessima palabilità. Inoltre troppo zuccherata, pensi che sia salutare e invece poi scopri avere tipo il 25% di zuccheri (non so leggere le tabelle coi valori nutrizionali).

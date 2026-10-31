@@ -1,6 +1,6 @@
 ---
 created: 2026-08-06
-modified: 2026-09-13
+modified: 2026-10-12
 ---
 Nell'articolo precedente ho descritto [[La mia rete overkill domestica]]. Una cosa che non ho specificato è che il mio firewall Fortinet 60D è più che end-of-life: è proprio trapassato.
 
@@ -15,7 +15,7 @@ Dunque, a scopo puramente didattico (ovvio), mi chiedo se e come sia possibile e
 2. A questo punto è necessaria una premessa: un malintenzionato deve conoscere il mio indirizzo IP pubblico. Potrebbe ricavarlo dal dominio, se questo puntasse direttamente alla mia connessione, oppure incontrarlo durante una scansione automatizzata degli indirizzi esposti su Internet. Potrebbe trovarlo anche attraverso motori di ricerca come [Shodan](https://www.shodan.io/).
 3. Una volta ottenuto l'indirizzo IP, possiamo usare Nmap per cercare eventuali porte aperte. L'opzione `-sV` abilita la service detection, mentre `-p-` estende la scansione a tutte le porte TCP. Il risultato richiede più tempo, ma è più completo.
 ```
-nmap -sV -p- <IP>
+	nmap -sV -p- <IP>
 ```
 
 ![[img/nmap.png]]

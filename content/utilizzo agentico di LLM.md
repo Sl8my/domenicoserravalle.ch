@@ -1,6 +1,6 @@
 ---
 created: 2026-06-16
-modified: 2026-08-22
+modified: 2026-10-28
 ---
 L'esperimento didattico odierno è relativo all'utilizzo agentico degli LLM. Nell'articolo precedente ho spiegato il funzionamento tecnico del sito in cui scrivo. Uno degli utilizzi più opportuni di questi agenti sarebbe proprio quello di pubblicare più agevolmente gli articoli del sito stesso. La pubblicazione! E non la redazione dei contenuti: "[don't delegate understanding](https://stephango.com/understand)". [Openclaw](https://openclaw.ai/) d'altronde promette questo e molto di più. Lo metto subito alla prova.
 
